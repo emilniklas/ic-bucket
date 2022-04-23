@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "nodenext",
+    "skipLibCheck": true,
+    "allowJs": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "icbucket": ["canisters/icbucket/index.js"]
+    }
+  },
+  "include": [
+    "canisters/**/*.d.ts",
+    "canisters/**/*.js",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
+}

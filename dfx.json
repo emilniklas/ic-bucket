@@ -1,0 +1,20 @@
+{
+  "canisters": {
+    "icbucket": {
+      "type": "motoko",
+      "main": "backend/Main.mo",
+      "declarations": {
+        "output": "frontend/canisters/icbucket"
+      }
+    },
+    "icbucket_frontend": {
+      "type": "assets",
+      "dependencies": [
+        "icbucket"
+      ],
+      "source": [
+        "frontend/dist/"
+      ]
+    }
+  }
+}
