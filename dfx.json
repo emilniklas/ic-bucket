@@ -14,7 +14,10 @@
       ],
       "source": [
         "frontend/dist/"
-      ]
+      ],
+      "declarations": {
+        "output": "frontend/canisters/icbucket_frontend"
+      }
     }
   }
 }

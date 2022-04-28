@@ -10,13 +10,18 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "icbucket": ["canisters/icbucket/index.js"]
+      "icbucket/*": ["canisters/icbucket/*"],
+      "icbucket": ["canisters/icbucket/index.js"],
+      "icbucket_frontend": ["canisters/icbucket_frontend/index.js"],
+      "icbucket_frontend/*": ["canisters/icbucket_frontend/*"]
     }
   },
   "include": [
     "canisters/**/*.d.ts",
     "canisters/**/*.js",
     "src/**/*.ts",
-    "src/**/*.tsx"
+    "src/**/*.tsx",
+    "*.ts",
+    "*.d.ts"
   ]
 }
